@@ -1,0 +1,12 @@
+test_dbt_bigquery_elt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: "project"
+      dataset: "test_dbt_etl"
+      priority: interactive
+      job_execution_timeout_seconds: 600
+      threads: 4
+      location: us
