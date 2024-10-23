@@ -5,7 +5,7 @@ steps:
 
     gcloud builds submit --tag "$IMAGE" .
 
-    gcloud run jobs deploy --image "$IMAGE_PATH" \
+    gcloud run jobs deploy --image "$IMAGE" \
         --project="$PROJECT_ID" \
         --region="$LOCATION" \
 
