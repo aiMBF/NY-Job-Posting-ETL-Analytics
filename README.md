@@ -1,2 +1,2 @@
 # dit-bigquery
-A quick project for testing DBT on BigQuery dataset
+A quick project for testing DBT with BigQuery and Cloud Run Job
