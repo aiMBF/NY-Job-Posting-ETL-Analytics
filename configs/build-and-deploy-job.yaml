@@ -1,0 +1,17 @@
+steps:
+  - name: google/cloud-sdk:489.0.0-slim
+  script: |
+    IMAGE=$LOCATION--docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$JOB_NAME:$IMAGE_TAG
+
+    gcloud builds submit --tag "$IMAGE" .
+
+    gcloud run jobs deploy --image "$IMAGE_PATH" \
+        --project="$PROJECT_ID" \
+        --region="$LOCATION" \
+
+  env:
+      - 'PROJECT_ID=$PROJECT_ID'
+      - 'LOCATION=$LOCATION'
+      - 'REPO_NAME=$_REPO_NAME'
+      - 'JOB_NAME=$_JOB_NAME'
+      - 'IMAGE_TAG=$_IMAGE_TAG'
