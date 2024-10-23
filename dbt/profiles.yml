@@ -4,8 +4,8 @@ test_dbt_bigquery_elt:
     dev:
       type: bigquery
       method: oauth
-      project: "project"
-      dataset: "test_dbt_etl"
+      project: "ab-gcp-project"
+      dataset: "test-dbt-bq"
       priority: interactive
       job_execution_timeout_seconds: 600
       threads: 4
