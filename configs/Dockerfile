@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT [ "dbt", "run", "--profiles-dbt", "dbt", "--project-dbt", "dbt"]
+ENTRYPOINT [ "dbt", "run", "--profiles-dir", "dbt", "--project-dir", "dbt"]
