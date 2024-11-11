@@ -18,7 +18,7 @@ The tools used in this project are:
 
 ## Project Architecture
 The architecture of this project is descibed by the picture below:
-
+ (  TODO: add the picture later)
 
 ## Project Folder Structure
 ```plaintext
@@ -45,9 +45,6 @@ The architecture of this project is descibed by the picture below:
 ### 1. Data Ingestion 
 In the data ingestion stage, I use Airbyte to pull job postings data from the NYC Open Data API. Airbyte connects to the API and ingests data into BigQuery for storage.
 
-Source: NYC Open Data API ()
-Tool: Airbyte 
-
 ### 2. Data Storage
 In this stage, data is stored in BigQuery, Google's scalable data warehouse. BigQuery is used to centralize raw and transformed data, providing a secure, high-performance environment for data storage.
 
@@ -64,6 +61,9 @@ Data visualization is achieved using Looker Stuido, which connects to BigQuery t
 Distribution of job postings by agency and category
 Average salary analysis
 Trends in job postings over time (number of full-time and part-time positions posted)
+
+
+TODO: Add the dashbord
 
 ### Documentation: 
 - NYC Open Data API Documentation: (https://opendata.cityofnewyork.us/how-to/) 
