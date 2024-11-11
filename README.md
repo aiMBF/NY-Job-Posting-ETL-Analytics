@@ -21,6 +21,7 @@ The architecture of this project is descibed by the picture below:
 
 
 ## Project Folder Structure
+```plaintext
 .
 ├── README.md
 ├── configs
@@ -39,7 +40,7 @@ The architecture of this project is descibed by the picture below:
     │       └── data-cleaning.sql
     ├── profiles.yml
     └── target
-
+```
 ## Data Pipeline Components
 ### 1. Data Ingestion 
 In the data ingestion stage, I use Airbyte to pull job postings data from the NYC Open Data API. Airbyte connects to the API and ingests data into BigQuery for storage.
