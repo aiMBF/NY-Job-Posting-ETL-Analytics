@@ -18,7 +18,8 @@ The tools used in this project are:
 
 ## Project Architecture
 The architecture of this project is descibed by the picture below:
- (  TODO: add the picture later)
+
+![Architecture Diagram](screenshots/NYC-Jobs-Pipeline.drawio.png)
 
 ## Project Folder Structure
 ```plaintext
@@ -63,7 +64,9 @@ Average salary analysis
 Trends in job postings over time (number of full-time and part-time positions posted)
 
 
-TODO: Add the dashbord
+![Dashboards](screenshots/dashboard.png) 
+![AVG-Salary-By-Job](screenshots/average-salary-by-job-category.png)
+![JP-by-Agency](screenshots/job-posting-by-agency.png) 
 
 ### Documentation: 
 - NYC Open Data API Documentation: (https://opendata.cityofnewyork.us/how-to/) 
