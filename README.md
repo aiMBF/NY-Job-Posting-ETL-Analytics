@@ -1,4 +1,4 @@
-# dbt-bigquery
+# NY-Job-Posting-ETL-Analytics using Modern Data Stack Tools: Airbyte, BigQuery, DBT and Looker Studio
 This project is based on Mazlum Tosun's tutorial named `ETL with DBT on Cloud Run Job` |(Ref: https://www.youtube.com/watch?v=I8bGWV0Pfug) 
 
 By adaptating this toturial, I build an ETL that gives insights about job postings available on the City of New York’s official jobs site (http://www.nyc.gov/html/careers/html/search/search.shtml)
